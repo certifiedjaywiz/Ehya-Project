@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.headerHero {
+    background: rgba(0, 184, 217, 1);
+}
+
+.logo img{
+    width: 50%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 85%;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+}
+
+ul{
+    display: flex;
+}
+
+.navBar li a{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    padding: 10px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+select{
+    background: none;
+    border: hidden;
+    color: #fff;
+}
+
+nav button{
+    background: hsla(205, 100%, 28%, 1%);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.textSide {
+    margin-left: 6rem;
+}
+
+.hero .textSide h2 {
+    color: #fff;
+}
+
+.textside h2{
+    font-size: 3rem;
+    width: 635px;
+    font-family: DM Sans;
+    line-height: 260px;
+    text-align: left;
+    font-weight: 700px;
+    color: #fff;
+    width: 60;
+}
+
+.curve img{
+    width: 20%;
+}
+.imageSide img {
+    width: 100%;
+}
