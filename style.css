@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    color: #fff;
+    padding-top: 0.3%;
     box-sizing: border-box;
     overflow: hidden;
+    gap: 1.5rem;
+    font-family: DM Sans;
+    font-size: 15px;
 }
 
 .headerHero {
     background: rgba(0, 184, 217, 1);
-}
-
-.logo img{
-    width: 50%;
 }
 
 header{
@@ -25,23 +27,29 @@ header{
 
 nav{
     display: flex;
-    gap: 2rem;
 }
 
 ul{
     display: flex;
 }
 
-.navBar li a{
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18.23px;
-    padding: 10px;
-    letter-spacing: 0.30000001192092896px;
-    text-align: center;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
+ul :hover{
+    background: #005490;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+.login {
+    background:#005490;
+    color: #fff;
+    border: none;
+    width: 80px;
+    height: 30px;
+    top: 30px;
+    left: 800px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 select{
@@ -50,40 +58,41 @@ select{
     color: #fff;
 }
 
-nav button{
-    background: hsla(205, 100%, 28%, 1%);
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1.5rem;
-}
-
 .hero{
     display: flex;
     justify-content: center;
 }
 
 .textSide {
-    margin-left: 6rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    width: 45%;
 }
 
 .hero .textSide h2 {
     color: #fff;
-}
-
-.textside h2{
     font-size: 3rem;
-    width: 635px;
-    font-family: DM Sans;
-    line-height: 260px;
-    text-align: left;
-    font-weight: 700px;
-    color: #fff;
-    width: 60;
+    letter-spacing: 7px;
 }
 
-.curve img{
-    width: 20%;
+.demo {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    font-size: 1rem;
 }
+
+.demo button {
+    background-color: #fff;
+    color:rgba(0, 184, 217, 1);
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
 .imageSide img {
-    width: 100%;
+    width: 105%;
+    height: 950px;
+    left: 775px;
+    
 }
