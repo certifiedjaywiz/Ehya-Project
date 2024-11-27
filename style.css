@@ -187,23 +187,24 @@ select {
     align-items: center;
     width: 80%;
     margin: auto;
+    margin-top: 2rem;
     gap: 10rem;
 }
 
 .scheduleText h3{
     font-family: DM Sans;
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 40px;
     color: #034d82;
     width: 70%;
 }
 .scheduleText p{
     color:#90A3B4;
     font-family: DM Sans;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
-    width: 85%;
+    width: 95%;
 }
 .scheduleText a{
     font-family: DM Sans;
@@ -230,5 +231,5 @@ select {
 }
 .scheduleImage img{
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 2rem;
 }
