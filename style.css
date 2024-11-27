@@ -1,98 +1,234 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
 *{
     padding: 0;
     margin: 0;
-    color: #fff;
-    padding-top: 0.3%;
     box-sizing: border-box;
-    overflow: hidden;
-    gap: 1.5rem;
-    font-family: DM Sans;
-    font-size: 15px;
+    overflow-x: hidden;
 }
 
 .headerHero {
-    background: rgba(0, 184, 217, 1);
+    background-color: rgba(0, 184, 217, 1);
 }
 
+.logo {
+    font-family:DM Sans;
+    font-size: 2rem;
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    margin-top: 2rem;
     width: 85%;
+    margin-top: 2rem;
 }
-
 nav{
     display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 14px;
 }
-
-ul{
+.navbar{
     display: flex;
+    gap: 2rem;
 }
 
-ul :hover{
-    background: #005490;
-    color: #fff;
-    border-radius: 4px;
+.navbar li a{
+        font-family: DM Sans;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18.23px;
+        letter-spacing: 0.3000000119209289px;
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
 }
 
-
-.login {
-    background:#005490;
-    color: #fff;
-    border: none;
-    width: 80px;
-    height: 30px;
-    top: 30px;
-    left: 800px;
-    border-radius: 4px;
-    cursor: pointer;
+.navbar li a:hover{
+    color: #328BCB;
 }
 
-select{
+select {
     background: none;
-    border: hidden;
-    color: #fff;
+    border: none;
+    color: #ffffff;
+}
+
+.login{
+    background:linear-gradient(#005490,#328BCB); 
+    color: #ffffff;
+    font-family: DM Sans;
+    font-size: 14px;
+    padding: auto;
+    border: none;
+    width: 4rem;
+    height: 2rem;
 }
 
 .hero{
-    display: flex;
-    justify-content: center;
+    display: flex;   
+    margin-top: 4rem;   
+    justify-content: space-between;
+}
+.textSide{
+    margin-left: 6rem;
 }
 
-.textSide {
-    margin-left: 5rem;
+.textSide h2{
+    font-family: DM Sans;
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 700;
     margin-top: 5rem;
-    width: 45%;
 }
 
-.hero .textSide h2 {
-    color: #fff;
-    font-size: 3rem;
-    letter-spacing: 7px;
+.textSide p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 1rem;
+    text-align: left;
+    color: #ffffff;
+    width: 69%;
 }
-
+.curve img {
+    width: 26%;
+}
+.imageSide img {
+    width: 100%;
+}
 .demo {
     display: flex;
-    align-items: center;
-    margin-top: 12px;
-    font-size: 1rem;
+    margin-top: 1rem;
+    gap: 1rem;
+    text-align: center;
 }
-
 .demo button {
-    background-color: #fff;
-    color:rgba(0, 184, 217, 1);
+    font-family: DM Sans;
+    font-size:16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    background: #ffffff;
+    color:#00A8DB;
     border: none;
-    padding: 10px 20px;
-    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 1rem 1.5rem;
+    width: 35%;
 }
 
-.imageSide img {
-    width: 105%;
-    height: 950px;
-    left: 775px;
-    
+.demo button:hover {
+    background: linear-gradient(278278.21deg, #005490 11.66%, #328BCB 9696.78%);
+    color: #ffffff;
+}
+
+.sponsors {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.postImage img{
+    width: 90%;
+}
+.postImage{
+    width: 40%;
+}
+.postText{
+    width: 39%;
+}
+.postText h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896;
+    color: #034d82;
+    width: 100%;
+}
+
+.postText p{
+    color:#90A3B4;
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: 26px;
+    width: 95%;
+}
+.postText a{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #04AADD;
+}
+.iphone{
+    position: absolute;
+}
+.arrow{
+    position: relative;
+    margin-top: 6rem;
+    rotate: 10deg clock;
+}
+.schedule{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 10rem;
+}
+
+.scheduleText h3{
+    font-family: DM Sans;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #034d82;
+    width: 70%;
+}
+.scheduleText p{
+    color:#90A3B4;
+    font-family: DM Sans;
+    font-size: 12px;
+    line-height: 20px;
+    width: 85%;
+}
+.scheduleText a{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #04AADD;
+}
+.scheduleText ul li {
+    padding: 0.1rem;
+    margin-top: 0.2rem;
+    color: #90A3B4;
+    font-family: DM Sans;
+    font-size: 14px;
+}
+.scheduleText ul li i{
+    color: #04AADD;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+.schduleImage{
+    width: 100%;
+    margin-top: 3rem;
+}
+.scheduleImage img{
+    width: 100%;
+    margin-top: 6rem;
 }
