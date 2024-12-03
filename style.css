@@ -231,5 +231,126 @@ select {
 }
 .scheduleImage img{
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
+
+.hashtag{
+    background: #EFFBFF;
+    font-family: DM Sans;
+    padding: 4rem 0rem;
+}
+.topHashtag{
+    text-align: center;
+}
+.topHashtag h2{
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #034d82;
+}
+.topHashtag p{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#90A3B4;
+    width: 35%;
+    margin: auto;
+    padding: 1rem 0;
+}
+.cardWrap{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 60vh;
+
+}
+.card{
+    background: #ffffff;
+    padding: 1rem 0.5rem 3rem 2rem;
+    border-radius: 8px;
+    height: 300px;
+    width: 100%;
+}
+.card:hover{
+    background: rgb(39, 39, 39);
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.card h5{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #034d82;
+    padding: 1rem 0;
+}
+
+.card p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-right: 1rem;
+    color:#90A3B4;
+}
+
+.growth{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+}
+.growthLeft h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #034d82;
+    width: 85%;
+}
+.growthLeft p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#90A3B4;
+    padding-top: 1rem;
+}
+.growthText p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    color:#90A3B4;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+}
+.hart{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 3rem;
+}
+.hart h5{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #034d82;
+}
+.hart p{
+    font-family: DM Sans;
+    font-size: 16px;
+    color:#90A3B4;
+    font-weight: 400;
+    line-height: 28px;
+}
+
