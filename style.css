@@ -149,7 +149,7 @@ select {
 .postText{
     width: 39%;
 }
-.postText h3{
+.postText h4{
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
@@ -191,7 +191,7 @@ select {
     gap: 10rem;
 }
 
-.scheduleText h3{
+.scheduleText h4{
     font-family: DM Sans;
     font-size: 30px;
     font-weight: 700;
@@ -306,8 +306,9 @@ select {
     width: 80%;
     margin: auto;
     margin-top: 1rem;
+    padding: 6rem 0rem 6rem 0rem;
 }
-.growthLeft h3{
+.growthLeft h4{
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
@@ -353,4 +354,117 @@ select {
     font-weight: 400;
     line-height: 28px;
 }
-
+.brand{
+    background-image: url(/images/Mask\ Group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding: 5rem;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+.brandTextUp h4{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #ffffff;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+.brandTextUp p{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    color:#ffffffff;
+}
+.brandTextDown{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.brandTextDown a{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #ffffff;
+}
+.brandLink button{
+    font-family: DM Sans;
+    font-size:14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    background: #ffffff;
+    color:#00B8D9;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 1rem;
+}
+footer{
+    background:#081315;
+    width: 100%;
+    color: #fff;
+    padding: 3rem 0;
+}
+.footLogo img{
+    width: 20%;
+}
+ .footWrap{
+    display: flex;
+    margin: auto;
+    width: 85%;
+ }
+ .footRight{
+    display: flex;
+    gap: 4rem;
+    width: 60%;
+ }
+.footLeft{
+    width: 30%;
+}
+.footLeft p{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.83px;
+    color: #d3d6d8;
+    padding: 1rem 0;
+    width: 68%;
+}
+li {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.83px;
+    color: #d3d6d8;
+    margin-bottom: 1rem;
+}
+.footRight h4{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+.copyright{
+    text-align: center;
+    margin-top: 4rem;
+}
+.copyright p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #d3d6d8;
+    margin-top: 1rem;
+}
