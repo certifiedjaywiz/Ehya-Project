@@ -10,10 +10,6 @@
     background-color: rgba(0, 184, 217, 1);
 }
 
-.logo {
-    font-family:DM Sans;
-    font-size: 2rem;
-}
 header{
     display: flex;
     justify-content: space-between;
@@ -22,30 +18,32 @@ header{
     width: 85%;
     margin-top: 2rem;
 }
+
 nav{
     display: flex;
     gap: 2rem;
     align-items: center;
-    font-size: 14px;
 }
+
 .navbar{
     display: flex;
     gap: 2rem;
 }
 
 .navbar li a{
-        font-family: DM Sans;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 18.23px;
-        letter-spacing: 0.3000000119209289px;
-        text-align: center;
-        color: #ffffff;
-        text-decoration: none;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    letter-spacing: 0.3000000119209289px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .navbar li a:hover{
     color: #328BCB;
+    background: #fff;
 }
 
 select {
@@ -63,13 +61,15 @@ select {
     border: none;
     width: 4rem;
     height: 2rem;
+    cursor: pointer;
 }
 
 .hero{
     display: flex;   
-    margin-top: 4rem;   
     justify-content: space-between;
+    align-items: center;
 }
+
 .textSide{
     margin-left: 6rem;
 }
@@ -79,7 +79,6 @@ select {
     color: #ffffff;
     font-size: 64px;
     font-weight: 700;
-    margin-top: 5rem;
 }
 
 .textSide p{
@@ -87,20 +86,22 @@ select {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin-top: 1rem;
     text-align: left;
     color: #ffffff;
-    width: 69%;
+    width: 70%;
+    margin: 1rem 0;
 }
 .curve img {
     width: 26%;
 }
-.imageSide img {
+
+.imageSide img{
     width: 100%;
-}
-.demo {
+    margin-top: 4rem;
+} 
+
+ .demo {
     display: flex;
-    margin-top: 1rem;
     gap: 1rem;
     text-align: center;
 }
@@ -114,15 +115,14 @@ select {
     color:#00A8DB;
     border: none;
     cursor: pointer;
-    border-radius: 2px;
     padding: 1rem 1.5rem;
-    width: 35%;
+    border-radius: 4px;
 }
 
 .demo button:hover {
     background: linear-gradient(278278.21deg, #005490 11.66%, #328BCB 9696.78%);
     color: #ffffff;
-}
+} 
 
 .sponsors {
     width: 80%;
@@ -131,8 +131,13 @@ select {
     gap: 5rem;
     align-items: center;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom:5rem;
 }
+
+.sponsors img{
+    width:100%;
+}
+
 .post{
     display: flex;
     justify-content: space-between;
@@ -140,141 +145,168 @@ select {
     width: 80%;
     margin: auto;
 }
+
 .postImage img{
-    width: 90%;
+    width:100%;
 }
+
 .postImage{
     width: 40%;
 }
+
 .postText{
-    width: 39%;
+    width: 45%;
 }
-.postText h4{
+
+.postText h3{
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0.30000001192092896;
+    letter-spacing: 0.30000001192092896px;
     color: #034d82;
-    width: 100%;
+    width: 85%;
 }
 
 .postText p{
     color:#90A3B4;
     font-family: DM Sans;
-    font-size: 14px;
-    line-height: 26px;
-    width: 95%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.30000001192092896px;
 }
+
 .postText a{
     font-family: DM Sans;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 20.83px;
     color: #04AADD;
 }
-.iphone{
+
+.iPhone{
     position: absolute;
+    width: 30%;
 }
+
 .arrow{
     position: relative;
-    margin-top: 6rem;
-    rotate: 10deg clock;
+    z-index: -2;
+    margin-top: 3rem;
 }
+
+.arrow img{
+    width: 100%;
+}
+
 .schedule{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: auto;
-    margin-top: 2rem;
-    gap: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
 }
 
-.scheduleText h4{
-    font-family: DM Sans;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 40px;
-    color: #034d82;
-    width: 70%;
+.scheduleText{
+    width: 50%;
 }
+.scheduleText h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #034d82;
+    width: 80%;
+}
+
 .scheduleText p{
     color:#90A3B4;
     font-family: DM Sans;
-    font-size: 14px;
-    line-height: 20px;
-    width: 95%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 90%;
 }
 .scheduleText a{
     font-family: DM Sans;
-    font-size: 14px;
+    width: 243px;
+    height: 21px;
+    left: 140px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 26px;
     color: #04AADD;
 }
 .scheduleText ul li {
-    padding: 0.1rem;
-    margin-top: 0.2rem;
     color: #90A3B4;
     font-family: DM Sans;
-    font-size: 14px;
+    font-size: 16px;
 }
 .scheduleText ul li i{
     color: #04AADD;
     margin-right: 0.5rem;
     text-decoration: none;
 }
-.schduleImage{
-    width: 100%;
-    margin-top: 3rem;
+
+.scheduleImage{
+    width: 50%;
 }
 .scheduleImage img{
     width: 100%;
-    margin-top: 3rem;
 }
 
 .hashtag{
     background: #EFFBFF;
-    font-family: DM Sans;
-    padding: 4rem 0rem;
+    margin-top: 5rem;
+    padding: 4rem;
 }
+
 .topHashtag{
     text-align: center;
 }
+
 .topHashtag h2{
     font-family: DM Sans;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 52px;
     color: #034d82;
 }
 .topHashtag p{
     font-family: DM Sans;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 32px;
     color:#90A3B4;
-    width: 35%;
     margin: auto;
     padding: 1rem 0;
+    width: 45%;
 }
+
 .cardWrap{
     display: flex;
     gap: 2rem;
     align-items: center;
-    width: 80%;
+    width: 85%;
     margin: auto;
     height: 60vh;
 
 }
+
 .card{
     background: #ffffff;
-    padding: 1rem 0.5rem 3rem 2rem;
+    padding: 1rem 0.5rem 3rem 1rem;
     border-radius: 8px;
     height: 300px;
     width: 100%;
 }
+
+.card img{
+    width: 30%;
+}
+
 .card:hover{
     background: rgb(39, 39, 39);
     color: #ffffff;
@@ -282,6 +314,7 @@ select {
     transition: 0.5s;
     border-radius: 8px;
 }
+
 .card h5{
     font-family: DM Sans;
     font-size: 20px;
@@ -293,7 +326,7 @@ select {
 
 .card p{
     font-family: DM Sans;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 20px;
     padding-right: 1rem;
@@ -303,26 +336,26 @@ select {
 .growth{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 85%;
+    padding: 6rem 0;
     margin: auto;
-    margin-top: 1rem;
-    padding: 6rem 0rem 6rem 0rem;
 }
-.growthLeft h4{
+
+.growthLeft h3{
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
     color: #034d82;
-    width: 85%;
+    width: 80%;
 }
+
 .growthLeft p{
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     color:#90A3B4;
-    padding-top: 1rem;
 }
 .growthText p{
     font-family: DM Sans;
@@ -333,97 +366,104 @@ select {
     color:#90A3B4;
     margin-left: 3rem;
     margin-bottom: 1.5rem;
+    width: 72%;
 }
+
 .hart{
     display: flex;
     gap: 1rem;
     align-items: center;
     margin-left: 3rem;
 }
-.hart h5{
+
+.hartName h5{
     font-family: DM Sans;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     line-height: 34px;
     color: #034d82;
 }
-.hart p{
+.hartName p{
     font-family: DM Sans;
-    font-size: 16px;
+    font-size: 15px;
     color:#90A3B4;
     font-weight: 400;
     line-height: 28px;
 }
+
 .brand{
     background-image: url(/images/Mask\ Group.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 80%;
+    width: 85%;
     margin: auto;
     display: flex;
-    align-items: center;
-    margin-bottom: 5rem;
-    padding: 5rem;
-    border-radius: 4px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5rem;
+    padding: 3rem;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 6px;
 }
-.brandTextUp h4{
-    font-family: DM Sans;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 50px;
-    color: #ffffff;
-    width: 50%;
-    margin-bottom: 1rem;
-}
-.brandTextUp p{
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 32px;
-    color:#ffffffff;
-}
-.brandTextDown{
+
+.customer{
     display: flex;
+    margin: auto;
     align-items: center;
     gap: 1rem;
 }
-.brandTextDown a{
+
+.brandLeft h3{
+    font-family: DM Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #fff;
+    width: 55%;
+}
+
+.brandLeft p{
     font-family: DM Sans;
     font-size: 14px;
-    font-weight: 500;
     line-height: 32px;
-    color: #ffffff;
+    color:#fff;
+    font-weight: 500;
+    padding: 1rem 0rem;
 }
-.brandLink button{
+
+.brandRight button{
     font-family: DM Sans;
     font-size:14px;
     font-weight: 500;
     line-height: 20px;
     text-align: center;
     background: #ffffff;
-    color:#00B8D9;
+    color:#00A8DB;
     border: none;
     cursor: pointer;
-    border-radius: 2px;
-    padding: 1rem;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    margin: auto;
 }
+
 footer{
     background:#081315;
     width: 100%;
-    color: #fff;
     padding: 3rem 0;
 }
+
 .footLogo img{
     width: 20%;
 }
- .footWrap{
+
+.footWrap{
     display: flex;
     margin: auto;
     width: 85%;
  }
- .footRight{
+.footRight{
     display: flex;
     gap: 4rem;
     width: 60%;
@@ -431,16 +471,9 @@ footer{
 .footLeft{
     width: 30%;
 }
-.footLeft p{
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20.83px;
-    color: #d3d6d8;
-    padding: 1rem 0;
-    width: 68%;
-}
+
 li {
+    list-style-type: none;
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
@@ -448,6 +481,7 @@ li {
     color: #d3d6d8;
     margin-bottom: 1rem;
 }
+
 .footRight h4{
     font-family: DM Sans;
     font-size: 18px;
@@ -456,6 +490,17 @@ li {
     color: #ffffff;
     margin-bottom: 1.5rem;
 }
+
+.footLeft p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #d3d6d8;
+    padding: 1rem 0;
+    width: 68%;
+}
+
 .copyright{
     text-align: center;
     margin-top: 4rem;
@@ -464,7 +509,581 @@ li {
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 700;
-    line-height: 20px;
-    color: #d3d6d8;
+    line-height: 20.83px;
+    color: #ffffff;
     margin-top: 1rem;
 }
+
+.socials img{
+    width: 15%;
+}
+
+.copyright img{
+    width: 5%;
+}
+
+
+@media (max-width: 1024px){
+    .textSide{
+        margin-left: 5rem;
+    }
+    .textSide h2{
+        font-size: 44px;
+        width: 100%;
+    }
+
+    .textSide p{
+        width: 92%;
+        padding: 1rem 0;
+    }
+
+    .curve img {
+        width: 27%;
+    }
+    .demo {
+        align-items: center;
+    }
+    .demo button {
+    font-size:16px;
+    width: 55%;
+    }
+
+    .textSide{
+        width: 50%;
+    }
+
+    .imageSide{
+        width: 50%;
+    }
+
+    .iPhone{
+        width: 35%;
+    }
+
+    .postText{
+        width: 50%;
+    }
+
+    .postText h3{
+        width: 100%;
+    }
+    
+    .postText p{
+        width: 100%;
+        font-size: 12px;
+    }
+    .scheduleText{
+        width: 90%;
+    }
+    .scheduleText h3{
+        font-size: 30px;
+        width: 90%;
+    }
+    .scheduleText p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .scheduleText a{
+        font-size: 12px;
+    }
+
+    .scheduleText ul li {
+        font-size: 12px;
+    }
+    .scheduleImage{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .scheduleImage img{
+        width: 100%;
+    }
+
+    .topHashtag p{
+        width: 53%;
+    }
+    
+    .cardWrap{
+        gap: 1rem;
+        height: 70vh;
+    }
+
+    .card{
+        height: 330px;    
+    }
+
+    .card p{
+        font-family: DM Sans;
+        font-size: 12px;
+    }
+
+    .card img{
+        width: 30%;
+    }
+
+    .growthLeft h3 {
+        font-size: 26px;
+        width: 90%;
+    }
+    .growthLeft p {
+        font-size: 16px;
+        width: 90%;
+    }
+    
+    .growthText p{
+        font-size: 14px;
+        margin-left: 0;
+        width: 92%;
+    }
+    .growthLeft h3{
+        font-size: 30px;
+        width: 90%;
+    }
+    .growthLeft p{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .hart{
+        margin-left: 0;
+    }
+
+    .brand {
+        width: 80%;
+    }
+    .brandLeft{
+        width: 90%;
+    }
+    .brandLeft h3{
+        width: 70%;
+    }
+    
+    .brandRight{
+        width: 30%;
+    }
+    .brandLeft p{
+        width: 90%;
+    }
+    
+    .brandRight button{
+        font-size: 14px;
+    }
+
+    .footRight{
+        gap: 2rem;
+        width: 80%;
+     }
+    .footLeft{
+        width: 40%;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+
+    header{
+        width: 80%;
+        margin-bottom: -1rem;
+    }
+
+    .textSide{ 
+        margin-left: 2rem;
+    }
+
+    .textSide h2{
+        font-size: 34px;
+        width: 100%;
+    }
+    
+    .textSide p{
+        font-size: 12px;
+        width: 80%;
+        margin: 0rem;
+    }
+
+    .imageSide img{
+        width: 100%;
+        margin-top: 4rem;
+    } 
+    
+    .demo button {
+        font-size:14px;
+        padding: 0.5rem;
+    }
+
+    .sponsors {
+        width: 80%;
+    }
+
+    .post{
+        width: 80%;
+    }
+    
+    .postImage{
+        width: 40%;
+    }
+
+    .postText{
+        width: 53%;
+    }
+    
+    .postText h3{
+        font-size: 30px;
+        line-height: 45px;
+        width: 100%;
+    }
+    
+    .postText p{
+        font-size: 12px;
+        line-height: 25px;
+        width: 100%;
+    }
+    
+    .postText a{
+        font-size: 14px;
+    }
+    
+    .iPhone{
+        width: 35%;
+    }
+    
+    .schedule{
+        width: 80%;
+        margin: 6rem auto;
+    }
+    
+    .scheduleText{
+        width: 55%;
+    }
+    .scheduleText h3{
+        font-size: 30px;
+        line-height: 45px;
+        color: #034d82;
+        width: 100%;
+    }
+    
+    .scheduleText p{
+        font-size: 14px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .scheduleText a{
+        width: 170px;
+        font-size: 14px;
+    }
+    .scheduleText ul li {
+        font-size: 14px;
+    }
+    
+    .scheduleImage{
+        width: 50%;
+    }
+    .scheduleImage img{
+        width: 100%;
+    }
+
+    .topHashtag{
+        width: 100%;
+    }
+    .topHashtag p{
+        font-size: 16px;
+        width: 90%;
+    }
+        .cardWrap{
+        gap: 0.5rem;
+        height: 50%;
+    }
+    .card:hover{
+        transform: scale(1.05);
+    }
+    
+    .growthLeft h3 {
+        font-size: 22px;
+        width: 100%;
+    }
+    .growthLeft p {
+        font-size: 16px;
+    }
+    .growthText p{
+        font-size: 14px;
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .growthLeft h3{
+        font-size: 26px;
+        width: 100%;
+    }
+    .growthLeft p{
+        font-size: 12px;
+        width: 100%;
+    }
+    
+    .hart{
+        margin-left: 0;
+    }
+    
+    .brandLeft{
+        width: 100%;
+    }
+    .brandLeft h3{
+        width: 90%;
+    }
+    .brandLeft p{
+        width: 100%;
+    }
+    .brandRight button{
+        font-size: 12px;
+    }
+
+    .footWrap{
+        width: 90%;
+     }
+
+    .footRight{
+        gap: 0.5rem;
+        width: 100%;
+     }
+    
+
+
+}
+
+
+@media (max-width: 425px){
+    .logo img{
+        width: 100%;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .hero{
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    
+    .textSide{
+        margin-left: 0rem;
+        width: 100%;
+    }
+
+    .imageSide{
+        width: 100%;
+    }
+
+    .sponsors {
+        width: 30%;
+        margin: auto;
+        display: block;
+        margin: 2rem auto;
+    }
+
+    .sponsors img{
+        margin-bottom: 2rem;
+    }
+
+    .post{
+        flex-direction: column-reverse;
+        width: 85%;
+        margin: auto;
+    }
+    
+    .postImage{
+        width: 100%;
+    }
+    
+    .postText{
+        width: 100%;
+    }
+
+    .iPhone {
+        width: 80%;   
+    }
+    
+    .postText h3{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 55px;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .postText p{
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+    
+    .postText a{
+        font-size: 14px;
+    }
+
+    .schedule{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .scheduleText{
+        width: 85%;
+    }
+    .scheduleText h3{
+        width: 100%;
+    }
+    
+    .scheduleText p{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .topHashtag p{
+        font-size: 14px;
+        width: 95%;
+    }
+    
+    .cardWrap{
+        flex-direction: column;
+        width: 85%;
+        height: 60%;
+    }
+    
+    .card{
+        height: 250px;
+        width: 100%;
+    }
+
+    .card:hover{
+        transform: scale(1);
+        transition: 0.5s;
+        border-radius: 8px;
+    }
+    
+    .card img{
+        width: 20%;
+        padding-left: 1rem;
+    }
+
+    .card h5{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 34px;
+        padding: 1rem;
+    }
+    
+    .card p{
+        font-family: DM Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        padding-left: 1rem;
+    }
+    
+    .growth{
+        flex-direction: column;
+    }
+    
+    .growthLeft h3{
+        font-size: 36px;
+        width: 100%;
+    }
+    
+    .growthLeft{
+        margin-bottom: 2rem;
+    }
+
+    .growthLeft p{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .growthText p{
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    .hart{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin-left: 3rem;
+    }
+
+    .hartImage{
+        width: 20%;
+    }
+
+    .hartName{
+        width: 65%;
+    }
+
+    .brand{
+        width: 85%;
+        margin: auto;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        padding: 3rem;
+        border-radius: 6px;
+    }
+    
+    .customer{
+        margin: 2rem 0;
+    }
+
+    .brandLeft h3{
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .brandRight button{
+        margin: auto;
+        width: 100%;
+    }
+    
+    .footLogo img{
+        width: 20%;
+    }
+    
+    .footWrap{
+        flex-direction: column;
+        margin: auto;
+        width: 85%;
+     }
+    .footRight{
+        flex-direction: column;
+        width: 100%;
+     }
+    .footLeft{
+        width: 100%;
+    }
+
+    li {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .footRight h4{
+        font-size: 18px;
+    }
+    
+    .footLeft p{
+        font-size: 16px;
+        width: 80%;
+    }
+    
+    .copyright{
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .copyright p{
+        font-size: 16px;
+    }
+}
+
+
+
